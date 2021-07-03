@@ -106,5 +106,5 @@ theme: yun
 deploy:
   type: git
   repo: git@github.com:imlwt/imlwt.github.io.git
-  # branch: master # 默认使用 master 分支
+  branch: master # 默认使用 master 分支
   message: # 你可以自定义此次部署更新的说明
