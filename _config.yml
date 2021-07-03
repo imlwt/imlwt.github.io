@@ -105,6 +105,7 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:imlwt/imlwt.github.io.git
+  repo: 
+    github: git@github.com:imlwt/imlwt.github.io.git
   branch: master # 默认使用 master 分支
   message: # 你可以自定义此次部署更新的说明
