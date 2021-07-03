@@ -136,7 +136,7 @@ girls:
 # Sidebar Avatar
 avatar:
   enable: true
-  url: /yun.png
+  url: /images/avatar.png
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -375,19 +375,19 @@ reward:
   icon: icon-hand-coin-line
   comment: I'm so cute. Please give me money.
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
-  methods:
-    - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
-      color: "#00A3EE"
-      icon: icon-alipay-line
-    - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
-      color: "#12B7F5"
-      icon: icon-qq-line
-    - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
-      color: "#2DC100"
-      icon: icon-wechat-pay-line
+  # methods:
+  #   - name: 支付宝
+  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+  #     color: "#00A3EE"
+  #     icon: icon-alipay-line
+  #   - name: QQ 支付
+  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+  #     color: "#12B7F5"
+  #     icon: icon-qq-line
+  #   - name: 微信支付
+  #     path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+  #     color: "#2DC100"
+  #     icon: icon-wechat-pay-line
     # - name: paypal
     #   link: https://paypal.com
     #   path: https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg
@@ -414,7 +414,7 @@ creative_commons:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
+  # url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
 
 # Footer Settings
 # ---------------
@@ -528,7 +528,7 @@ engine_search:
   href: "https://www.google.com/search?q=site:"
   # href: "https://www.baidu.com/s?wd=site:"
   # href: "https://www.bing.com/search?q=site:"
-  domain: yunyoujun.cn
+  # domain: yunyoujun.cn
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
